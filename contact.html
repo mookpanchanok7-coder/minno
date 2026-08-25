@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZAP-VER! | Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">แซ่บเวอร์!</div>
+    <nav>
+      <a href="index.html">หน้าแรก</a>
+      <a href="services.html">บริการ</a>
+      <a href="work.html">ผลงาน/เมนู</a>
+      <a href="process.html">ขั้นตอน</a>
+      <a href="contact.html" class="active">ติดต่อ</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div>
+      <h1>SAY HELLO!<br><span class="highlight">จองโต๊ะ / สั่งอาหาร</span></h1>
+      <p style="font-weight: 600; margin-bottom: 1.5rem;">โทร: 081-234-5678<br>LINE: @zapver_official</p>
+    </div>
+    
+    <form class="neo-card" style="background: #fff;" onsubmit="event.preventDefault(); alert('ส่งข้อมูลเรียบร้อย!');">
+      <div style="margin-bottom: 1rem;">
+        <label style="font-weight: 800; display:block;">ชื่อของคุณ</label>
+        <input type="text" style="width:100%; padding: 10px; border: 2px solid var(--dark); border-radius: 6px;" required>
+      </div>
+      <div style="margin-bottom: 1rem;">
+        <label style="font-weight: 800; display:block;">ข้อความ / รายละเอียดการจอง</label>
+        <textarea style="width:100%; padding: 10px; border: 2px solid var(--dark); border-radius: 6px; height: 100px;" required></textarea>
+      </div>
+      <button type="submit" class="btn-primary" style="width: 100%;">ส่งข้อความ ✨</button>
+    </form>
+  </main>
+</body>
+</html>
